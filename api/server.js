@@ -7,6 +7,7 @@ const port = 3000;
 var cors = require("cors");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+require('dotenv').config();
 
 const ImageModel = require("./model");
 const RoomModel = require("./roomModel");
@@ -22,7 +23,7 @@ app.use(express.json());
 
 mongoose
   .connect(
-    "mongodb+srv://paragrane:P%40rane999@cluster0.vmewqng.mongodb.net/",
+    process.env.MONGO_URL,
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("db is connected"))
@@ -130,7 +131,7 @@ app.post("/reg", async (req, res) => {
 
     const token = jwt.sign(
       { user_id: user._id, email },
-      "qwertyuiop1234567890",
+      process.env.TOKEN,
       {
         expiresIn: "5h",
       }
@@ -150,7 +151,7 @@ app.post("/login", async (req, res) => {
     if (user && (await bcrypt.compare(password, user.password))) {
       const token = jwt.sign(
         { user_id: user._id, email },
-        "qwertyuiop1234567890",
+        process.env.TOKEN,
         {
           expiresIn: "5h",
         }

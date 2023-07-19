@@ -1,0 +1,102 @@
+.rooms {
+  width: 100;
+  font-family: System-ui;
+}
+.rooms-h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 8vh 0 0 10vw;
+}
+.rooms-p {
+  margin: 0 0 12vh 10vw;
+  line-height: 0.5;
+}
+.home-container {
+  background-color: #0f172b;
+  color: white;
+  height: 600px;
+  width: 100%;
+  /* border-bottom: 1px solid rgba(128, 128, 128, 0.514); */
+}
+.home-card {
+  display: inline-block;
+  height: 520px;
+}
+.card-pad {
+  padding-left: 10vh;
+  padding-top: 10vh;
+}
+.right {
+  float: right;
+}
+.home-card-img {
+  display: inline-block;
+}
+.home-card-h1 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+.home-card-p {
+  font-family: sans-serif;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.home-card-price {
+  font-size: 2rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.home-list {
+  margin: 50px 0;
+  width: 18vw;
+}
+.home-list-ul {
+  display: inline-block;
+}
+.home-card-list {
+  font-family: sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+}
+.home-card-btn {
+  font-weight: 600;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: #ffffff;
+  border-radius: 0px 0px 0px 0px;
+  padding: 13px 55px 13px 55px;
+}
+.home-card-btn:hover {
+  border: none;
+  background-color: burlywood;
+}
+
+@media screen and (max-width: 750px) {
+  .home-card-img {
+    display: none;
+  }
+  .rooms-p {
+    line-height: normal;
+  }
+  .card-pad {
+    padding-left: 5vw;
+  }
+  .home-list {
+    width: 80vw;
+  }
+
+  .home-container {
+    height: fit-content;
+  }
+}
+@media screen and (max-width: 1200px){
+    .home-card-img{
+        width: 70%;
+    }
+}

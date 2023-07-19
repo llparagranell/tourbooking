@@ -1,0 +1,63 @@
+.search{
+    width: 86vw;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #203e8b;
+    margin-bottom: 5vh;
+    margin-top: -2vh;
+}
+.search-card{
+    width: fit-content;
+    padding: 5vh 0;
+}
+.search-card-h{
+    color: white;
+    padding-left: 20px;
+    font-size: 2.5rem;
+    font-family: system-ui;
+    padding-bottom: 10px;
+}
+.cards{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.date{
+    display: inline-block;
+    height: 40px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    padding: 0 0;
+}
+.cards input{
+    height: 40px;
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    outline: none;
+}
+.cards input[type="date"] { 
+    margin: 0 2px;
+    font-family: system-ui;
+    font-weight: 600;
+}
+.card-button{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+.card-button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.91);
+}
+
+@media screen and (max-width: 750px) {
+    .cards input{
+        width: 65vw;
+    }
+}

@@ -1,0 +1,176 @@
+header{
+    padding: 5vh 0vw 5vw 12vh;
+}
+.head-h1{
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #222251;
+    line-height: 1;
+}
+.head-p{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: rgb(76, 68, 98);
+    margin-top: 15px;
+}
+.home-container{
+    background-color: #0F172B;
+    color: white;
+    height: 600px;
+    width: 100%;
+}
+.home-card{
+    display: inline-block;
+    height: 520px;
+}
+.card-pad{
+    padding-left: 10vh;
+    padding-top: 10vh;
+}
+.right{
+    float: right;
+}
+.home-card-img{
+    height: 600px;
+}
+.home-card-h1{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.home-card-p{
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.home-card-price{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.home-list{
+    margin: 50px 0;
+}
+.home-card-list{
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 10px 0;
+}
+.home-card-btn{
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 14px 50px;
+    font-size: 0.8rem;
+    border: 2px solid white;
+    background-color: #0F172B;
+    color: white;
+}
+.font{
+font-family: sans-serif;
+padding: 10vh 10vw;
+}
+.home-three{
+    display: flex;
+    font-size: 0.9rem;
+}
+.home-card-text {
+    padding-left: 40px;
+}
+.home-card-text p{
+    font-family: system-ui;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #222222;
+}
+.home-three-div{
+    padding: 7vh 5vw 6vh 0;
+    display: flex;
+}
+/*  */
+.home-id{
+    display: flex;
+    background-color: #0F172B;
+    color: white;
+    height: fit-content;
+}
+.home-id-text{
+    padding-left: 5vw;
+    max-width: 700px;
+}
+.home-id-h{
+font-size: 2.5rem;
+font-family: system-ui;
+font-weight: 500;
+}
+.home-id-p{
+    font-size: 1.1rem;
+    font-family: system-ui;
+    font-weight: 400;
+    padding: 30px 0;
+}
+.home-id-btn{
+    background: transparent;
+    border: none;
+    color: burlywood;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.home-id-img{
+    background-image: url(https://hotellerv1.b-cdn.net/apartment/wp-content/uploads/sites/5/2018/06/kirill-zakharov-630681-unsplash-1.jpg);
+    height: 700px;
+    width: 900px;
+    background-size: cover;
+}
+.map{
+    display: flex;
+    color: white;
+    padding-right: 4vw;
+    height: fit-content;
+    background-color: #0F172B;
+}
+
+
+/*  */
+
+@media screen and (max-width: 750px) {
+    .home-three{
+        flex-direction: column;
+    }
+    .home-three-div{
+        padding:7vh 0 6vh 0;
+        flex-direction: column;
+    }
+    .home-card-text{
+        padding: 20px 0 0 0;
+    }
+    .home-id, .map{
+        padding: 50px 10px;
+    }
+    .home-id-img{
+        display: none;
+    }
+    .home-id-p {
+        font-size: 0.9rem;
+    }    
+    iframe{
+       display: none;
+    }
+    /* .destination-card-1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    } */
+    .card-destination-2,  .card-destination-1{
+        width: 39vw;
+    }  
+    header{
+        padding: 4vh 0vw 14vw 4vh;
+    }
+    .head-h1 {
+        font-size: 50px;
+    }
+}

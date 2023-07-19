@@ -1,0 +1,44 @@
+.card-container{
+    width: 88vw;
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+}
+::-webkit-scrollbar {
+    height: 3px;
+}
+
+.card{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.card-img img{
+    border-radius: 5px;
+}
+.card-text{
+    font-family: System-ui;
+}
+.card-ul-a{
+    font-size: 13px;
+    background-color: #203e8b;
+    border-radius: 4px 4px 4px 0;
+    color: white;
+    padding: 4px;
+}
+.card-h{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.card-p{
+    color: rgb(86, 86, 86);
+    font-size: 15px;
+    margin: 3px 0;
+}
+.card-li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0 10px;
+    color: rgb(86, 86, 86);
+    font-size: 13.5px;
+}

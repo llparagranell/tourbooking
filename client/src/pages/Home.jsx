@@ -1,7 +1,6 @@
 import { useNavigate } from "react-router";
 import "./home.css";
 import Destination from "../components/Destination";
-import RoomCard from "../components/RoomCard";
 import Search from "../components/Search";
 
 function Home() {
@@ -27,7 +26,6 @@ function Home() {
           </p>
         </header>
         <Search/>
-        {/* <RoomCard/> */}
        <Destination/>
         <section className="font">
           <h1 style={{fontSize:"2.2rem"}}>Why choose our apartment?</h1>
@@ -84,7 +82,7 @@ function Home() {
         </section>
         <section className="map">
           <div className="map-design">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571267494!2d72.71637465584017!3d19.08217751385281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1687149234430!5m2!1sen!2sin" width="775" height="700" style={{border:"0;"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.14571267494!2d72.71637465584017!3d19.08217751385281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1687149234430!5m2!1sen!2sin" width="775" height="700" style={{border:"0;"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="1"></iframe>
           </div>
           <div className="home-id-text">
             <h1 className="home-id-h">Our Location</h1>

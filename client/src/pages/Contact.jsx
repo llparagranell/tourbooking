@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router";
 import "./contact.css";
 
 function Contact() {
@@ -33,7 +32,7 @@ function Contact() {
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          title="1"></iframe>
         </div>
       </section>
       <section className="contact-2">

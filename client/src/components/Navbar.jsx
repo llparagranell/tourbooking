@@ -3,9 +3,7 @@ import "./navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
-  function openNav() {
-    document.getElementsByClassName("nav-ul").style.display = "flex";
-  }
+
   return (
     <div className="navbar">
       <div class="nav">
@@ -25,19 +23,19 @@ function Navbar() {
 
         <div class="nav-links">
           <Link to="/">
-            <a>HOME</a>{" "}
+            <a href="!#">HOME</a>{" "}
           </Link>
           <Link to="/rooms">
-            <a>OUR ROOMS</a>{" "}
+            <a href="!#">OUR ROOMS</a>{" "}
           </Link>
           <Link to="/about">
-            <a>ABOUT US</a>{" "}
+            <a href="!#">ABOUT US</a>{" "}
           </Link>
           <Link to="/contact">
-            <a>CONTACT</a>{" "}
+            <a href="!#">CONTACT</a>{" "}
           </Link>
           <Link to="/login">
-            <a>LOGIN</a>{" "}
+            <a href="!#">LOGIN</a>{" "}
           </Link>
         </div>
       </div>

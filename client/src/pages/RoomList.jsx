@@ -1,4 +1,4 @@
-import { useLocation, useNavigate } from "react-router";
+import { useLocation } from "react-router";
 import Search from "../components/Search";
 import "./roomlist.css";
 import { useState, useEffect } from "react";
@@ -94,7 +94,7 @@ function RoomList() {
                           </ul>
                           <ul className="list-ul dis right">
                             <p className="list-ul-p dis">{e.review}</p>
-                            <a className="list-ul-a dis">{e.rating}</a>
+                            <a className="list-ul-a dis" href="!#">{e.rating}</a>
                           </ul>
                         </div>
                         <div className="list-text-2">

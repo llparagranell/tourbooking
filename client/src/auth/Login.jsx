@@ -17,7 +17,7 @@ function Login() {
 
   const handleform = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:3000/login", user).then((res) => (res.data)?navigate('/'):alert("Wrong Email Or Password"));
+    axios.post("https://tourbooking-vg7h.onrender.com/login", user).then((res) => (res.data)?navigate('/'):alert("Wrong Email Or Password"));
   };
 
   return (

@@ -8,7 +8,7 @@ const Display = () => {
   const { fname } = useParams();
   const navigate = useNavigate();
   axios
-    .get(`http://localhost:3000/rooms/${fname}`)
+    .get(`https://tourbooking-vg7h.onrender.com/rooms/${fname}`)
     .then((res) => setData(res.data))
     .catch((err) => console.log(err));
 

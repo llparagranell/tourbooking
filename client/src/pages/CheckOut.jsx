@@ -9,7 +9,7 @@ function CheckOut() {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:3000/room/${id}`)
+      .get(`https://tourbooking-vg7h.onrender.com/room/${id}`)
       .then((res) => setData(res.data))
       .catch((err) => console.log(err));
   }, []);

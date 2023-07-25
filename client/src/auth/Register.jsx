@@ -19,7 +19,7 @@ function Register() {
 
   const handleform = (e) =>{
     e.preventDefault();
-    axios.post("http://localhost:3000/reg",user).then(res=> alert(res.data));
+    axios.post("https://tourbooking-vg7h.onrender.com/reg",user).then(res=> alert(res.data));
     navigate('/')
   }
 

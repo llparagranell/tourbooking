@@ -6,7 +6,7 @@ function RoomCard() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3000/room").then((res) => setData(res.data));
+    axios.get("https://tourbooking-vg7h.onrender.com/room").then((res) => setData(res.data));
   }, []);
 
   if (data != null)

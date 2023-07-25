@@ -14,7 +14,7 @@ function Ourrooms() {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:3000/getall").then((res) => setData(res.data));
+    axios.get("https://tourbooking-vg7h.onrender.com/getall").then((res) => setData(res.data));
   });
   
   if (data != null)

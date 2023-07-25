@@ -82,3 +82,12 @@
         margin: 10px;
         border-radius: 5px;
 }
+
+@media screen and (max-width:750px) {
+    .card-destination-1, .card-destination-2{
+        margin: 14px;
+    }
+    .card-destination-3, .card-destination-4, .card-destination-5{
+        margin: 9px;
+    }
+}

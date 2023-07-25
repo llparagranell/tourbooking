@@ -137,7 +137,9 @@ app.post("/reg", async (req, res) => {
       }
     );
 
+    
     user.token = token;
+
     user.save().then(res.send("sucessfull"));
   } catch (error) {
     console.log(error);
@@ -156,7 +158,17 @@ app.post("/login", async (req, res) => {
           expiresIn: "5h",
         }
       );
+      const cookieOptions = {
+        expires:new Date(
+          Date.now() + 90 * 24 * 60 * 60 * 1000
+        ),
+        httpOnly: true
+      };
+      
       user.token = token;
+
+      res.cookie('jwt', token, cookieOptions)
+      
       res.send(true).status(200);
     }else{
       res.send(false).status(404);

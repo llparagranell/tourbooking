@@ -111,6 +111,7 @@ form textarea{
     .contact{
         flex-direction: column;
         padding: 5vh 1vh;
+        height: 60vh;
     }
     .contact-head-btn{
         margin: 20px;
@@ -132,5 +133,8 @@ form textarea{
     }    
     form textarea{
         width: 75vw;
+    }
+    .form-section{
+        height: 120vh;
     }
 }

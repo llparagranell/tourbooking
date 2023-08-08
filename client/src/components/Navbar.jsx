@@ -23,19 +23,19 @@ function Navbar() {
 
         <div class="nav-links">
           <Link to="/">
-            <a href="!#">HOME</a>{" "}
+            HOME
           </Link>
           <Link to="/rooms">
-            <a href="!#">OUR ROOMS</a>{" "}
+            OUR ROOMS
           </Link>
           <Link to="/about">
-            <a href="!#">ABOUT US</a>{" "}
+            ABOUT US
           </Link>
           <Link to="/contact">
-            <a href="!#">CONTACT</a>{" "}
+            CONTACT
           </Link>
           <Link to="/login">
-            <a href="!#">LOGIN</a>{" "}
+           LOGIN
           </Link>
         </div>
       </div>

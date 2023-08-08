@@ -8,7 +8,7 @@
   }
   .nav {
     position: relative;
-    padding: 2vh 5vh;
+    padding: 2vh 6vw;
   }
   
   .nav > .nav-header {
@@ -40,7 +40,8 @@
   }
   
   .nav > .nav-links > a:hover {
-    
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.462);
   }
   
   .nav > #nav-check {

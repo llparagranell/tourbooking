@@ -78,9 +78,7 @@
 }
 
 @media screen and (max-width: 750px) {
-  .home-card-img {
-    display: none;
-  }
+
   .rooms-p {
     line-height: normal;
   }
@@ -94,9 +92,4 @@
   .home-container {
     height: fit-content;
   }
-}
-@media screen and (max-width: 1200px){
-    .home-card-img{
-        width: 70%;
-    }
 }

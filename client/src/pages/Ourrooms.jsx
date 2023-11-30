@@ -15,7 +15,9 @@ function Ourrooms() {
 
   useEffect(() => {
     axios.get("https://tourbooking-vg7h.onrender.com/getall").then((res) => setData(res.data));
-  });
+  },[]);
+
+  
   
   if (data != null)
     return (

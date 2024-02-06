@@ -186,5 +186,5 @@ app.get("/user", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("server started on 3000");
+  console.log("server started on 3000 on");
 });

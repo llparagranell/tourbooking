@@ -40,7 +40,6 @@ const Storage = multer.diskStorage({
 const upload = multer({
   storage: Storage,
 }).single("img");
-//              *****************************************************************************
 app.get("/getall", async (req, res) => {
   try {
     const data = await ImageModel.find();
@@ -187,5 +186,5 @@ app.get("/user", async (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("server started");
+  console.log("server started on 3000");
 });

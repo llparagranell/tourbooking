@@ -17,8 +17,8 @@ function Home() {
     return (
       <div>
         <header>
-          <h1 className="head-h1">The Hotel's Luxury
-            <br /> Indian Apartment
+          <h1 className="head-h1">The Hotel's <br /> Luxury
+            Indian Apartment
           </h1>
           <p className="head-p">
             Unwind the clock of modern life. Unlock the door to a wonder of the
